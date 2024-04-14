@@ -12,6 +12,7 @@ if len(message) < 3:
     for i in range(len(message)-1,-1,-1):
         finalString = finalString + message[i]
     print(finalString)
+    
 elif len(message) >=3:
      msgList = list(message)
      firstLetter = msgList.pop(0)
